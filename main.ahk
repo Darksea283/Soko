@@ -14,6 +14,7 @@ Menu,MenuBar,Add,Info, :HelpMenu
 Gui,Menu,Menubar
 
 Gui,Add,Button,x0 y0 w50 gRestart,Restart
+Gui,Add,Button,x+70 y0 w50 gUndo,Undo
 
 Row := "20"
 loop,30
@@ -316,4 +317,8 @@ return
 
 restart:
 nextlevel = 1
+return
+
+undo:
+msgbox,Premium Version only
 return
