@@ -16,6 +16,8 @@ Gui,Menu,Menubar
 Gui,Add,Button,x0 y0 w50 gRestart,Restart
 Gui,Add,Button,x+70 y0 w50 gUndo,Undo
 
+msgbox, Justus was here.
+
 Row := "20"
 loop,30
 {
